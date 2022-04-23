@@ -1,5 +1,5 @@
 # MagicEden NFT Bot
-import discord, os, sys, traceback, json
+import discord, os, traceback, json
 from colorama import Fore, init
 from aiohttp import ClientSession
 from discord.ext import commands
@@ -14,7 +14,7 @@ class Client(commands.Bot):
         self.session: ClientSession
 
     async def on_ready(self):
-        print(f"[{Fore.GREEN}!{Fore.RESET}] Bot has started successfully! Mode: {'Development' if 'dev' in sys.argv else 'Production'}") # Set up production/development bot
+        print(f"[{Fore.GREEN}!{Fore.RESET}] Bot has started successfully!") # Set up production/development bot
         self.session = ClientSession(loop=self.loop)
         await self.load_modules()
         await self.change_presence(status=discord.Status.online, activity=discord.Game('github.com/hattvr'))
