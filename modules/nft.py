@@ -27,6 +27,8 @@ class NFT(commands.Cog):
         new_fp = [0.0] * len(MARKETPLACE)
         for i in range(len(MARKETPLACE)):
             response = await (await self.bot.session.get(ME_URL.format(MARKETPLACE[i].lower()))).json()
+            if "not found" in response:
+                continue
             fp = float(response["floorPrice"]) / 1000000000
             new_fp[i] = fp
             if (fp > prev_fp[i]):
