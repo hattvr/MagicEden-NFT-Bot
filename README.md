@@ -3,18 +3,18 @@
     <a href="LICENSE">
         <img src="https://img.shields.io/github/license/hattvr/?label=License">
     </a>
-    <a href="https://github.com/hattvr/magiceden-bot/stargazers">
-        <img src="https://img.shields.io/github/stars/hattvr/magiceden-bot?label=Stars">
+    <a href="https://github.com/hattvr/MagicEden-NFT-Bot/stargazers">
+        <img src="https://img.shields.io/github/stars/hattvr/MagicEden-NFT-Bot?label=Stars">
     </a>
-    <a href="https://github.com/hattvr/magiceden-bot/releases/latest">
-        <img src="https://img.shields.io/github/v/release/hattvr/magiceden-bot?label=Latest%20Version">
+    <a href="https://github.com/hattvr/MagicEden-NFT-Bot/releases/latest">
+        <img src="https://img.shields.io/github/v/release/hattvr/MagicEden-NFT-Bot?label=Latest%20Version">
     </a>
-    <a href="https://github.com/hattvr/magiceden-bot/commit/master">
-        <img src="https://img.shields.io/github/last-commit/hattvr/magiceden-bot?label=Last%20Update">
+    <a href="https://github.com/hattvr/MagicEden-NFT-Bot/commit/master">
+        <img src="https://img.shields.io/github/last-commit/hattvr/MagicEden-NFT-Bot?label=Last%20Update">
     </a>
-    <img src="https://img.shields.io/github/languages/code-size/hattvr/magiceden-bot?label=Size">
-    <a href="https://github.com/hattvr/magiceden-bot/issues">
-        <img src="https://img.shields.io/github/issues/hattvr/magiceden-bot?label=Issues">
+    <img src="https://img.shields.io/github/languages/code-size/hattvr/MagicEden-NFT-Bot?label=Size">
+    <a href="https://github.com/hattvr/MagicEden-NFT-Bot/issues">
+        <img src="https://img.shields.io/github/issues/hattvr/MagicEden-NFT-Bot?label=Issues">
     </a>
 </p>
 
