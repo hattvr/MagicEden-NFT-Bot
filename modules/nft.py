@@ -20,7 +20,8 @@ class NFT(commands.Cog):
         
         while True:
             prev_fp = await self.stats(prev_fp)
-            await asyncio.sleep(600)
+            # Loop timer, default is set to 600
+            await asyncio.sleep( int(json.load(open('config.json', 'r'))['settings']['refreshrate']) ) 
 
     async def stats(self, prev_fp):
         new_fp = [0.0] * len(MARKETPLACE)

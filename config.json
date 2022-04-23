@@ -2,7 +2,8 @@
     "settings": {
         "token": "YOUR_BOT_TOKEN",
         "guild": "YOUR_GUILD_ID",
-        "log-channel": "CHANNEL_ID_FOR_LOGS"
+        "log-channel": "CHANNEL_ID_FOR_LOGS",
+        "refreshrate": 600
     },
     "nfts": [
         "NAME OF NFT",
