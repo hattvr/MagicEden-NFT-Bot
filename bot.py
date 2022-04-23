@@ -1,5 +1,5 @@
 # MagicEden NFT Bot
-import discord, os, pymongo, sys, traceback, json
+import discord, os, sys, traceback, json
 from colorama import Fore, init
 from aiohttp import ClientSession
 from discord.ext import commands
@@ -7,14 +7,10 @@ from discord.ext import commands
 # Read config file and grab username/password
 token = json.load(open('config.json', 'r'))['settings']['token']
 
-# Declare intents
-intents = discord.Intents.all()
-
 class Client(commands.Bot):
     def __init__(self):
-        super().__init__(command_prefix="nft!", intents=intents)
+        super().__init__(command_prefix="nft!")
         self.remove_command('help')
-        self.db = pymongo.MongoClient().swiftRU
         self.session: ClientSession
 
     async def on_ready(self):
