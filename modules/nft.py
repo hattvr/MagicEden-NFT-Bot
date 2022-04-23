@@ -25,7 +25,7 @@ class NFT(commands.Cog):
     async def stats(self, prev_fp):
         new_fp = [0.0] * len(MARKETPLACE)
         for i in range(len(MARKETPLACE)):
-            response = await (await self.bot.session.get(ME_URL.format(MARKETPLACE[i]))).json()
+            response = await (await self.bot.session.get(ME_URL.format(MARKETPLACE[i].lower()))).json()
             fp = float(response["floorPrice"]) / 1000000000
             new_fp[i] = fp
             if (fp > prev_fp[i]):

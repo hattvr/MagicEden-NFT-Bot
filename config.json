@@ -1,11 +1,11 @@
 {
     "settings": {
-        "token": "OTU0MDU5NzQ4ODU5MzM0NjY2.YjNnYQ.Gtk059Ko3P46-cZssJr6V5F3DEk",
-        "guild": "478406965991702541",
-        "log-channel": "944311800038572052"
+        "token": "YOUR_BOT_TOKEN",
+        "guild": "YOUR_GUILD_ID",
+        "log-channel": "CHANNEL_ID_FOR_LOGS"
     },
     "nfts": [
-        "mintooor",
-        "luxnode"
+        "NAME OF NFT",
+        "NAME OF SECOND NFT"
     ]
 }
