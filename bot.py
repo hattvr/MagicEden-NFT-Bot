@@ -7,9 +7,11 @@ from discord.ext import commands
 # Read config file and grab username/password
 token = json.load(open('config.json', 'r'))['settings']['token']
 
+intents = discord.Intents.default()
+
 class Client(commands.Bot):
     def __init__(self):
-        super().__init__(command_prefix="nft!")
+        super().__init__(command_prefix="nft!", intents=intents)
         self.remove_command('help')
         self.session: ClientSession
 
