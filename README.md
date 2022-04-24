@@ -18,7 +18,7 @@
 </div>
 
 ## **Getting Started**  
-MagicEden NFT Bot is an advanced, easy to setup, free, and unbranded Discord bot. This bot allows users to keep track of NFT prices that are located on the MagicEden marketplace automatically. To being installing this bot, you're going to want to install the required python libs from the `requirements.txt` file.
+MagicEden NFT Bot is an advanced, easy to setup, free, and unbranded Discord bot. This bot allows users to keep track of NFT prices that are located on the MagicEden marketplace automatically. To begin installing this bot, you're going to want to install the required python libs from the `requirements.txt` file.
 ```py
 pip install -r requirements.txt
 ```
